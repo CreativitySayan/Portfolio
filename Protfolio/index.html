@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <img src="./public/assets//images/download.jpeg" alt="girl Image" class="hero-img">
+        <h1 id="head-tag">Welcome to My Portfolio</h1>
+        <p class="hero-par">I am <span>Sayan Das</span>, a Web Developer.</p>
+        <a href="#about" class="cta-btn">Learn More</a>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate and driven web developer with a strong foundation in frontend and backend technologies. I
+            specialize in building dynamic, user-friendly applications that cater to both businesses and individuals.
+        </p>
+
+        <p>With experience working on diverse projects, I have honed my skills in various programming languages and
+            frameworks. My expertise includes HTML, CSS, JavaScript and Node.js, among others. I am continuously
+            learning and expanding my skillset to keep up with the ever-evolving web development industry</p>
+    </section>
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-container">
+            <!-- Experience 1 -->
+            <div class="experience-card">
+                <h3>Senior Web Developer</h3>
+                <p><strong>Company XYZ</strong> | 2022 - Present</p>
+                <ul>
+                    <li>Led the development of dynamic web applications using modern frameworks like React and Node.js.
+                    </li>
+                    <li>Improved website performance by 30% through code optimization and best practices.</li>
+                    <li>Mentored junior developers and conducted code reviews to ensure quality.</li>
+                </ul>
+            </div>
+            <!-- Experience 2 -->
+            <div class="experience-card">
+                <h3>Frontend Developer</h3>
+                <p><strong>Tech Solutions</strong> | 2020 - 2022</p>
+                <ul>
+                    <li>Designed and implemented responsive UI components for various client projects.</li>
+                    <li>Collaborated with UX designers to create intuitive user experiences.</li>
+                    <li>Integrated RESTful APIs to fetch and display data dynamically.</li>
+                </ul>
+            </div>
+            <!-- Experience 3 -->
+            <div class="experience-card">
+                <h3>Intern - Web Developer</h3>
+                <p><strong>Startup Inc.</strong> | 2019 - 2020</p>
+                <ul>
+                    <li>Assisted in developing an e-commerce platform using HTML, CSS, and JavaScript.</li>
+                    <li>Maintained the company's website, ensuring optimal performance and uptime.</li>
+                    <li>Contributed to weekly team meetings, providing feedback on project progress.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <!-- Card 1 -->
+            <div class="project-card">
+                <h3>Personal Portfolio</h3>
+                <p>A portfolio showcasing my skills, projects, and experience.</p>
+                <a href="https://github.com/Soujanya2004" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+            <!-- Card 2 -->
+            <div class="project-card">
+                <h3>Landing Page</h3>
+                <p>A sleek and modern landing page for a fictional product.</p>
+                <a href="https://github.com/yourusername/portfolio" target="_blank" class="project-link">View on
+                    GitHub</a>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Frontend: HTML, CSS, JavaScript, React, Next.js</p>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <!-- Contact Form -->
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="your_access_code">
+            <input type="hidden" name="apikey" value="your_access_code">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        <p>Email: <a href="mailto:sd4win@gmail.com">Mail me</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourusername/" target="_blank">LinkedIn</a></p>
+    </footer>
+</body>
+<script>
+</script>
+</html>
